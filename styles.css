@@ -1,5 +1,9 @@
-p {
-color: red;
+/* Page Dividers */
+.wrapper {
+   margin-top: -20px;
+}
+body {
+   background-color: lightblue;
 }
 .header{
    height: 100px;
@@ -9,12 +13,24 @@ color: red;
 .navbar {
    height: 50px;
    width: 1000px;
+   background-color: red;
+   border: 2px dotted black;
 }
 .content {
    height: 500px;
    width: 1000px;
+   background-color: #5555FF;
 }
 .footer {
    height: 100px;
    width: 1000px;
+   background-color: black;
+}
+
+/* Text */
+.title {
+   font-family: cursive;
+   text-shadow: 2px 2px 2px  yellow;
+   padding: 10px 10px;
+
 }

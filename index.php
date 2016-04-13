@@ -2,12 +2,13 @@
 <html>
 <head>
    <link rel="stylesheet" styles.css type="text/css" href="styles.css">
+   <link rel="stylesheet" styles.css type="text/css" href="normalize.css">
 </head>
 <body>
-<p> The Start of something New </p>
 
+<div class="wrapper">
 <div class="header">
-   <h1 class="Title"> AllWaterPolo </h1>
+   <h1 class="title"> AllWaterPolo </h1>
 </div>
 
 <div class="navbar">
@@ -19,6 +20,6 @@
 <div class="footer">
 
 </div>
-
+</div>
 </body>
 </html>
