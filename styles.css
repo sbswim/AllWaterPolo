@@ -1,3 +1,20 @@
 p {
 color: red;
 }
+.header{
+   height: 100px;
+   width: 1000px;
+   background-color: blue;
+}
+.navbar {
+   height: 50px;
+   width: 1000px;
+}
+.content {
+   height: 500px;
+   width: 1000px;
+}
+.footer {
+   height: 100px;
+   width: 1000px;
+}
