@@ -1,32 +1,39 @@
+/* General */
+
+a {
+   text-decoration: none;
+}
+body {
+   background-color: white;
+   padding: 0;
+   margin: 0;
+}
+
 /* Page Dividers */
 .wrapper {
    margin: auto;
    margin-top: -20px;
-   width: 60%;
-
-}
-body {
-   background-color: #CCC;
-   padding: 0;
-   margin: 0;
+   width: 65%;
 }
 
 .header{
    height: 100px;
    background-color: blue;
+   border-radius: 5px;
 }
-.navbar {
-   height: 50px;
-   background-color: red;
-   border: 2px dotted black;
-}
+
 .content {
-   height: 500px;
-   background-color: #5555FF;
+   margin-top:-22px;
+   height: 800px;
+   background-color: blue;
+   border-radius: 5px;
 }
 .footer {
-   height: 100px;
+   height: 75px;
    background-color: black;
+   border-radius: 5px;
+   margin-top: -20px;
+   color:red;
 }
 
 /* Text */
@@ -34,9 +41,125 @@ body {
    font-family: cursive;
    text-shadow: 2px 2px 2px  yellow;
    padding: 10px 10px;
+   text-decoration: none;
+}
+.subtitle {
+   font-family: sans-serif;;
+   color: white;
+   text-shadow: 2px 5px 5px  red;
+   padding: -20px 100px;
+   margin-top: -45px;
+   margin-left: 260px;
+}
+.ourgoal {
+   text-align: center;
+   padding-top: 30px;
+}
+h1 {
+   color:black;
+}
+/* Navigation Bar*/
+.navbar {
+   height: 50px;
+   background-color: red;
+   padding: 10px;
+   border-radius: 5px
+}
+
+.navbar ul li {
+   display: inline-block;
+   position: relative;
+}
+.navbar li {
+   padding-right: 25px;
+}
+.navbar li a {
+   color: white;
+   padding-top: 25px;
+   padding-bottom: 25px;
+}
+.navbar li a:hover {
+   background-color: #e95e5e;
+   text-shadow: 1px 1px 0.5px black;
+}
+.navbar ul ul {
+   display:none;
+	position:absolute;
+	background:red;
+	padding:0
+}
+.navbar ul ul li {
+   float: none;
+}
+.navbar ul ul a {
+   padding: 3px 10px;
+   color: white;
+   float: right;
+ font-size: 0.9em;
+}
+.navbar ul li:hover > ul {
+   display: block;
+   width: 90px;
+}
+
+/*IMGS */
+
+.wpball {
+   height: 90px;
+margin-left: 250px;
+margin-top: -500px;
+padding-bottom: 15px;
+transition: 1s ease;
+}
+.wpball:hover{
+   margin-left: 640px;
+}
+.facebook {
+    height:30px;
+    margin-left:150px;
+    margin-top:-40px;
+    display: block;
+    position: absolute;
+    transition: 0.5s ease;
 
 }
 
-/*
- */
- 
+
+.instagram {
+    margin-top: -42px;
+    margin-left: 210px;
+    height:35px;
+    display: block;
+    position: absolute;
+    transition: 0.5s ease;
+}
+
+.twitter {
+   margin-top: -40px;
+    margin-left: 270px;
+    height:30px;
+    display: block;
+    position: absolute;
+    transition: 0.5s ease;
+}
+.youtube {
+   margin-top: -40px;
+    margin-left: 330px;
+    height:30px;
+    display: block;
+    position: absolute;
+    transition: 0.5s ease;
+
+}
+
+/* Footer */
+.footer img:hover {
+    height: 37.5px;
+    margin-top:-45px;
+    box-shadow: 0px 0px 5px 5px yellow;
+}
+.copyright {
+   float: right;
+   padding-right: 10px;
+   margin-bottom: 200px;
+}
