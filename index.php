@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <link rel="stylesheet" styles.css type="text/css" href="styles.css">
-   <link rel="stylesheet" styles.css type="text/css" href="normalize.css">
+   <link rel="stylesheet" styles.css type="text/css" href="css/styles.css">
+   <link rel="stylesheet" styles.css type="text/css" href="css/normalize.css">
    <script type="text/javascript" src="script.js"></script>
+   <title> AllWaterPolo </title>
 
    <meta charset="utf-8">
    <meta name="description" content="All Water Polo Information" >
