@@ -58,7 +58,6 @@ body {
 }
 h1{
    color:black;
-   text-decoration: none;
 }
 h2{
    color:black;
@@ -164,6 +163,6 @@ transition: 1s ease;
     box-shadow: 0px 0px 5px 5px yellow;
 }
 .copyright {
-   margin: -30px 490px;
+   margin: -30px 450px;
    width: 400px;
 }
