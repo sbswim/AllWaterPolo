@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <link rel="stylesheet" type="text/css" href="css/styles.css">
-   <link rel="stylesheet"  type="text/css" href="css/normalize.css">
+   <link rel="stylesheet" styles.css type="text/css" href="css/styles.css">
+   <link rel="stylesheet" styles.css type="text/css" href="css/normalize.css">
    <script type="text/javascript" src="js/script.js"></script>
-   <title> The Inside "Water" </title>
+   <title> The Inside "Water": Positions </title>
    <link rel="icon"  type="image/png" href="assets/img/favicon.ico" />
 
    <meta charset="utf-8">
@@ -20,7 +20,7 @@ include "includes/header.inc.php";
 include "includes/navbar.inc.php";
 ?>
 <div class= "content">
-<h1 class="ourgoal"> Our "Goal" </h1>
+<p> To be added. </p>
 </div>
 <?php
 include "includes/footer.inc.php";
