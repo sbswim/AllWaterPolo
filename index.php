@@ -37,10 +37,21 @@
 </ul>
 </div>
 <div class= "content">
-<h1 class="ourgoal"> Our "Goal" </h1>
+<h1 class="thegoal"> Our "Goal" </h1>
+
+<h1 class="reason"> To Promote A Heathy Training Environment: </h1>
+<p> TBA </p>
+<h1 class="reason"> To Promote A Positive Attitude And Life Style: </h1>
+<p> TBA </p>
+<h1 class="reason"> To Promote Awareness of What Happens to the Body During Training: </h1>
+<p> TBA </p>
+<h1 class="reason"> To Help Coup With Injuries and How to Prevent Them From Ocurring: </h1>
+<p> TBA </p>
+
 </div>
+
 <div class="footer">
-    <p>Contact Us! <br> @insidewater</p>
+    <p class="contactus">Contact Us! <br> @insidewater</p>
     <a href="#"><img src ="assets/img/Facebook_Png_01.png" class="facebook" id="FaceBook Link" /> </a>
     <a href="#"><img src ="assets/img/Uiconstock-Socialmedia-Instagram.ico" class="instagram" id="Instagram Link" /> </a>
      <a href="#"><img src ="assets/img/Twitter_Logo_Hd_Png_03.png" class="twitter" id="Twitter Link" /> </a>
@@ -48,7 +59,7 @@
 
     <div class= copyright>
     Copyright &copy; 2016<script>new Date().getFullYear()>2016&&document.write("-"+new Date().getFullYear());</script>,
-    <br> All Water Polo. All rights reserved
+    <br> The Inside "Water". All rights reserved
     </div>
 </div>
 </div>

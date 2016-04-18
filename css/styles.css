@@ -5,6 +5,7 @@ a {
 }
 body {
    background-color: white;
+   background-image: url(../assets/img/water.jpg);
    padding: 0;
    margin: 0;
    font-size: 100%;
@@ -12,12 +13,9 @@ body {
 
 /* Page Dividers */
 .wrapper {
-   margin: auto;
-   width: 70%;
-   height: 100%;
-   -webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
+   margin-left:auto;
+      margin-right:auto;
+      width:800px;
 }
 
 .header{
@@ -27,12 +25,16 @@ box-sizing: border-box;
    -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
 box-sizing: border-box;
+max-width: 800px;
+max-height: 100px;
 }
 
 .content {
    height: 800px;
    background-color: blue;
    border-radius: 5px;
+   max-width: 800px;
+   max-height: 800px;
    -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
 box-sizing: border-box;
@@ -45,6 +47,8 @@ box-sizing: border-box;
    -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
 box-sizing: border-box;
+max-width: 800px;
+max-height: 75px;
 }
 
 /* Text */
@@ -66,9 +70,10 @@ box-sizing: border-box;
    text-shadow: 2px 5px 5px  red;
    padding: -30px 50px;
    margin-top: -45px;
-   margin-left: 270px;
+   margin-left: 300px;
+   font-size: 2em;
 }
-.ourgoal {
+.thegoal {
    text-align: center;
    padding-top: 30px;
    font-size: 2em;
@@ -80,6 +85,18 @@ h1{
 h2{
    color:black;
 }
+.reason {
+   font-size: 1.3em;
+   padding-top: 10px;
+   color: white;
+}
+.reason::before{
+   ext-decoration: none;
+content: "\2192";
+font-size: 1.5em;
+color: red;
+
+}
 /* Navigation Bar*/
 .navbar {
    height: 50px;
@@ -87,18 +104,9 @@ h2{
    padding: 10px;
    border-radius: 5px;
    font-size: 1.0em;
-}
-@media(max-width: 1000px)
-{
-   .navbar ul li a{ font-size: 0.9em }
-}
-@media (max-width:800px)
-{
-   .navbar ul li a{ font-size: 0.8em }
-}
-@media (max-width:500px)
-{
-   .navbar ul li a{ font-size: 0.5em }
+   max-width: 800px;
+   max-height: 50px;
+   text-align: center;
 }
 .navbar ul li {
    display: inline-block;
@@ -110,7 +118,7 @@ h2{
 }
 .navbar ul li a {
    color: white;
-   padding-top: 25px;
+   padding-top: 27px;
    padding-bottom: 25px;
    position: relative;
 }
@@ -142,18 +150,18 @@ h2{
 
 .wpball {
    height: 90px;
-margin-left: 260px;
-margin-top: -70px;
+margin-left: 280px;
+margin-top: -80px;
 padding-bottom: 15px;
 transition: 1s ease;
 }
 .wpball:hover{
-   margin-left: 640px;
+   margin-left: 710px;
 }
 .facebook {
     height:30px;
     margin-left:150px;
-    margin-top:-30px;
+    margin-top:20px;
     display: block;
     position: absolute;
     transition: 0.5s ease;
@@ -162,7 +170,7 @@ transition: 1s ease;
 
 
 .instagram {
-    margin-top: -32px;
+    margin-top: 18px;
     margin-left: 210px;
     height:35px;
     display: block;
@@ -171,7 +179,7 @@ transition: 1s ease;
 }
 
 .twitter {
-   margin-top: -30px;
+   margin-top: 20px;
     margin-left: 270px;
     height:30px;
     display: block;
@@ -179,7 +187,7 @@ transition: 1s ease;
     transition: 0.5s ease;
 }
 .youtube {
-   margin-top: -30px;
+   margin-top: 20px;
     margin-left: 330px;
     height:30px;
     display: block;
@@ -191,7 +199,7 @@ transition: 1s ease;
 /* Footer */
 .footer img:hover {
     height: 37.5px;
-    margin-top:-45px;
+    margin-top: 15px;
     box-shadow: 0px 0px 5px 5px yellow;
 }
 .footer{
@@ -200,6 +208,11 @@ transition: 1s ease;
 .footer *{
 }
 .copyright {
-   margin: -30px 450px;
+   margin: -25px 450px;
+   padding-top: 15px;
    width: 400px;
+}
+.contactus{
+   padding: 10px;
+   position: absolute;
 }
