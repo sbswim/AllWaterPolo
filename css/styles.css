@@ -7,54 +7,72 @@ body {
    background-color: white;
    padding: 0;
    margin: 0;
+   font-size: 100%;
 }
 
 /* Page Dividers */
 .wrapper {
    margin: auto;
-   margin-top: -20px;
    width: 70%;
    height: 100%;
+   -webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
 }
 
 .header{
    height: 100px;
    background-color: blue;
    border-radius: 5px;
+   -webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
 }
 
 .content {
-   margin-top:-22px;
    height: 800px;
    background-color: blue;
    border-radius: 5px;
+   -webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
 }
 .footer {
    height: 75px;
    background-color: black;
    border-radius: 5px;
-   margin-top: -20px;
    color:red;
+   -webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
 }
 
 /* Text */
 .title {
    font-family: cursive;
    text-shadow: 2px 2px 2px  yellow;
-   padding: 10px 10px;
+   padding: 20px 20px;
+   text-decoration: none;
+   font-size: 2em;
+   color: black;
+}
+.title a {
+   color: black;
    text-decoration: none;
 }
 .subtitle {
    font-family: sans-serif;;
    color: white;
    text-shadow: 2px 5px 5px  red;
-   padding: -20px 100px;
+   padding: -30px 50px;
    margin-top: -45px;
    margin-left: 270px;
 }
 .ourgoal {
    text-align: center;
    padding-top: 30px;
+   font-size: 2em;
+   font-weight: bold;
 }
 h1{
    color:black;
@@ -68,16 +86,29 @@ h2{
    background-color: red;
    padding: 10px;
    border-radius: 5px;
+   font-size: 1.0em;
 }
-
+@media(max-width: 1000px)
+{
+   .navbar ul li a{ font-size: 0.9em }
+}
+@media (max-width:800px)
+{
+   .navbar ul li a{ font-size: 0.8em }
+}
+@media (max-width:500px)
+{
+   .navbar ul li a{ font-size: 0.5em }
+}
 .navbar ul li {
    display: inline-block;
    position: relative;
 }
 .navbar li {
    padding-right: 25px;
+   padding-top: 16.5px;
 }
-.navbar li a {
+.navbar ul li a {
    color: white;
    padding-top: 25px;
    padding-bottom: 25px;
@@ -112,7 +143,7 @@ h2{
 .wpball {
    height: 90px;
 margin-left: 260px;
-margin-top: -500px;
+margin-top: -70px;
 padding-bottom: 15px;
 transition: 1s ease;
 }
@@ -122,7 +153,7 @@ transition: 1s ease;
 .facebook {
     height:30px;
     margin-left:150px;
-    margin-top:-40px;
+    margin-top:-30px;
     display: block;
     position: absolute;
     transition: 0.5s ease;
@@ -131,7 +162,7 @@ transition: 1s ease;
 
 
 .instagram {
-    margin-top: -42px;
+    margin-top: -32px;
     margin-left: 210px;
     height:35px;
     display: block;
@@ -140,7 +171,7 @@ transition: 1s ease;
 }
 
 .twitter {
-   margin-top: -40px;
+   margin-top: -30px;
     margin-left: 270px;
     height:30px;
     display: block;
@@ -148,7 +179,7 @@ transition: 1s ease;
     transition: 0.5s ease;
 }
 .youtube {
-   margin-top: -40px;
+   margin-top: -30px;
     margin-left: 330px;
     height:30px;
     display: block;
