@@ -3,7 +3,8 @@
 <head>
    <link rel="stylesheet" type="text/css" href="css/styles.css">
    <link rel="stylesheet"  type="text/css" href="css/normalize.css">
-   <script type="text/javascript" src="js/script.js"></script>
+
+
    <title> The Inside "Water" </title>
    <link rel="icon"  type="image/png" href="assets/img/favicon.ico" />
 
@@ -63,5 +64,7 @@
     </div>
 </div>
 </div>
+<script src="js/jquery.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

@@ -3,7 +3,6 @@
 <head>
    <link rel="stylesheet" styles.css type="text/css" href="../css/styles.css">
    <link rel="stylesheet" styles.css type="text/css" href="../css/normalize.css">
-   <script type="text/javascript" src="js/script.js"></script>
    <title> The Inside "Water": Attitude </title>
    <link rel="icon"  type="image/png" href="../assets/img/favicon.ico" />
 
@@ -25,5 +24,7 @@ include "../includes/navbar.inc.php";
 <?php
 include "../includes/footer.inc.php";
 ?>
+<script src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/script.js"></script>
 </body>
 </html>

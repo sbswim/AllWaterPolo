@@ -16,7 +16,6 @@ The Inside "Water" Of the sport.
 <li> Plays </li>
 <li> Tournaments </li>
 </ul>
-<h2> About Us </h2)
 
 <h3> Get Started! </h3>
 <ul>
