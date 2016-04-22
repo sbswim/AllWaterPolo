@@ -44,9 +44,9 @@
 <p> TBA </p>
 <h1 class="reason"> To Promote A Positive Attitude And Life Style: </h1>
 <p> TBA </p>
-<h1 class="reason"> To Promote Awareness of What Happens to the Body During Training: </h1>
+<h1 class="reason"> To Explain the Inner Game of the Sport</h1>
 <p> TBA </p>
-<h1 class="reason"> To Help Coup With Injuries and How to Prevent Them From Ocurring: </h1>
+<h1 class="reason"> To Help Cope With Injuries and How to Prevent Them From Ocurring: </h1>
 <p> TBA </p>
 
 </div>

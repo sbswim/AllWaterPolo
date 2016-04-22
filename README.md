@@ -51,6 +51,10 @@ The Inside "Water" Of the sport.
 <h3> Information </h3>
 <ul>
 <li> Give links to important and neccesary websites that provide sufficient information and knowledge of each topic </li>
+<li> Rules </li>
+<li> Tournaments </li>
+<li> Positions</li>
+<li> Plays </li>
 </ul>
 
 
