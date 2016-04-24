@@ -7,15 +7,14 @@ body {
    background-color: white;
    background-image: url(../assets/img/water.jpg);
    padding: 0;
-   margin: 0;
+   margin: auto;
    font-size: 100%;
 }
-
 /* Page Dividers */
 .wrapper {
    margin-left:auto;
-      margin-right:auto;
-      width:800px;
+   margin-right:auto;
+   width:800px;
 }
 
 .header{
@@ -23,31 +22,29 @@ body {
    background-color: blue;
    border-radius: 5px;
    position: relative;
-max-width: 800px;
-max-height: 100px;
-overflow: hidden;
+   max-width: 800px;
+   max-height: 100px;
 }
 
 .content {
    height: 2000px;
    position: relative;
    background-color: blue;
-   padding-bottom: -2000px;
    border-radius: 5px;
    max-width: 800px;
    max-height: 2000px;
 }
 .content-navbar{
-      padding-top: 72px;
+   padding-top: 72px;
 }
 .footer {
    height: 75px;
    background-color: black;
-      position: relative;
+   position: relative;
    border-radius: 5px;
    color:red;
-max-width: 800px;
-max-height: 75px;
+   max-width: 800px;
+   max-height: 75px;
 }
 
 /* Text */
@@ -78,23 +75,16 @@ max-height: 75px;
    font-size: 2em;
    font-weight: bold;
 }
-h1{
-   color:black;
-}
-h2{
-   color:black;
-}
 .reason {
    font-size: 1.3em;
    padding-top: 10px;
    color: white;
 }
 .reason::before{
-   ext-decoration: none;
-content: "\2192";
-font-size: 1.5em;
-color: red;
-
+   text-decoration: none;
+   content: "\2192";
+   font-size: 1.5em;
+   color: red;
 }
 /* Navigation Bar*/
 .navbar {
@@ -115,17 +105,15 @@ color: red;
 .navbar-fixed {
     top: 0;
     z-index: 100;
-  position: fixed;
+   position: fixed;
     width: 100%;
     background-color: red;
 }
-.navbar
-{
+.navbar{
    margin-top: 0;
 }
 
-.navbar ul
-{
+.navbar ul{
 	list-style:none;
 	position:relative;
 	float:left;
@@ -133,73 +121,64 @@ color: red;
    margin-top: -10px;
 }
 
-.navbar ul a
-{
+.navbar ul a{
 	display:block;
 	color:white;
 	text-decoration:none;
 	font-weight:700;
 	font-size:0.8em;
    line-height:75px;
-	padding-top: -20px;
+   padding-top: -20px;
    padding-bottom: 0px;
    padding-left: 30px;
    padding-right: 30px;
-margin-top: -5px;
+   margin-top: -5px;
 }
 
-.navbar ul li
-{
+.navbar ul li{
 	position:relative;
 	float:left;
 	margin:0;
-	padding:0
+	padding:0;
 }
 
-.navbar ul li:hover
-{
+.navbar ul li:hover{
 	background:#ff5555;
 }
 
-.navbar ul ul
-{
+.navbar ul ul{
 	display:none;
 	position:absolute;
 	top:100%;
 	left:0;
 	background:red;
-	padding:0
 }
 
-.navbar ul ul li
-{
+.navbar ul ul li{
 	float:none;
-	width:133px
-   padding-top: 500px;
+	width:131.7px
 }
 
-.navbar ul li:hover > ul
-{
+.navbar ul li:hover > ul{
 	display:block
 }
-.navbar ul ul ul
-{
+.navbar ul ul ul{
 	top:0;
    margin-top: 0px;
+   padding-bottom: -20px;
 	left:100%
 }
-.navbar ul ul ul a{
-
+.navbar ul ul ul li{
+   padding-top: 5px;
 }
 
 /*IMGS */
-
 .wpball {
    height: 90px;
-margin-left: 280px;
-margin-top: -80px;
-padding-bottom: 15px;
-transition: 1s ease;
+   margin-left: 280px;
+   margin-top: -80px;
+   padding-bottom: 15px;
+   transition: 1s ease;
 }
 .wpball:hover{
    margin-left: 710px;
@@ -211,9 +190,7 @@ transition: 1s ease;
     display: block;
     position: absolute;
     transition: 0.5s ease;
-
 }
-
 
 .instagram {
     margin-top: 18px;
@@ -225,9 +202,9 @@ transition: 1s ease;
 }
 
 .twitter {
-   margin-top: 20px;
+    margin-top: 20px;
     margin-left: 270px;
-    height:30px;
+    height: 30px;
     display: block;
     position: absolute;
     transition: 0.5s ease;
@@ -241,7 +218,6 @@ transition: 1s ease;
     transition: 0.5s ease;
 
 }
-
 /* Footer */
 .footer img:hover {
     height: 37.5px;
@@ -250,8 +226,6 @@ transition: 1s ease;
 }
 .footer{
    position: relative;
-}
-.footer *{
 }
 .copyright {
    margin: -25px 450px;

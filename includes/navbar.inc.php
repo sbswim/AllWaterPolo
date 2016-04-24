@@ -9,7 +9,13 @@
             <li> <a href="rules.php">Rules </a></li>
             <li> <a href="positions.php">Positions </a></li>
             <li> <a href="plays.php">Plays </a></li>
-            <li> <a href="ournaments.php">Tournments </a></li>
+            <li> <a href="tournaments.php">Tournments </a>
+            <ul>
+               <li> <a href="#"> Club </a> </li>
+               <li> <a href="#"> HighSchool </a> </li>
+               <li> <a href="#"> National </a> </li>
+            </ul>
+            </li>
          </ul>
          </li>
    <li> <a href="aboutus.php"> About Us </a></li>
