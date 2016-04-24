@@ -1,10 +1,8 @@
 /* General */
-
 a {
    text-decoration: none;
 }
 body {
-   background-color: white;
    background-image: url(../assets/img/water.jpg);
    padding: 0;
    margin: auto;
@@ -16,7 +14,6 @@ body {
    margin-right:auto;
    width:800px;
 }
-
 .header{
    height: 100px;
    background-color: blue;
@@ -25,7 +22,6 @@ body {
    max-width: 800px;
    max-height: 100px;
 }
-
 .content {
    height: 2000px;
    position: relative;
@@ -46,7 +42,6 @@ body {
    max-width: 800px;
    max-height: 75px;
 }
-
 /* Text */
 .title {
    font-family: cursive;
@@ -112,7 +107,6 @@ body {
 .navbar{
    margin-top: 0;
 }
-
 .navbar ul{
 	list-style:none;
 	position:relative;
@@ -120,7 +114,6 @@ body {
 	padding:0;
    margin-top: -10px;
 }
-
 .navbar ul a{
 	display:block;
 	color:white;
@@ -134,18 +127,15 @@ body {
    padding-right: 30px;
    margin-top: -5px;
 }
-
 .navbar ul li{
 	position:relative;
 	float:left;
 	margin:0;
 	padding:0;
 }
-
 .navbar ul li:hover{
 	background:#ff5555;
 }
-
 .navbar ul ul{
 	display:none;
 	position:absolute;
@@ -153,12 +143,10 @@ body {
 	left:0;
 	background:red;
 }
-
 .navbar ul ul li{
 	float:none;
 	width:131.7px
 }
-
 .navbar ul li:hover > ul{
 	display:block
 }
@@ -171,7 +159,6 @@ body {
 .navbar ul ul ul li{
    padding-top: 5px;
 }
-
 /*IMGS */
 .wpball {
    height: 90px;
@@ -191,7 +178,6 @@ body {
     position: absolute;
     transition: 0.5s ease;
 }
-
 .instagram {
     margin-top: 18px;
     margin-left: 210px;
@@ -200,7 +186,6 @@ body {
     position: absolute;
     transition: 0.5s ease;
 }
-
 .twitter {
     margin-top: 20px;
     margin-left: 270px;
@@ -235,4 +220,20 @@ body {
 .contactus{
    padding: 10px;
    position: absolute;
+}
+.counter {
+   color: red;
+   margin-top: -17px;
+   margin-left: 220px;
+   font-weight: bold;
+   background-color: yellow;
+}
+.counterhits{
+   margin-top: 35px;
+   margin-left: 0px;
+   background-color: yellow;
+}
+.times{
+   margin-left: 265px;
+   margin-top: -18px;
 }

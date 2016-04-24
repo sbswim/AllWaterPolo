@@ -3,8 +3,6 @@
 <head>
    <link rel="stylesheet" type="text/css" href="css/styles.css">
    <link rel="stylesheet"  type="text/css" href="css/normalize.css">
-
-
    <title> The Inside "Water" </title>
    <link rel="icon"  type="image/png" href="assets/img/favicon.ico" />
 
@@ -70,7 +68,17 @@
     Copyright &copy; 2016<script>new Date().getFullYear()>2016&&document.write("-"+new Date().getFullYear());</script>,
     <br> The Inside "Water". All rights reserved
     </div>
+
+
+      <p class="counterhits"> This Page has been viewed </p>
+      <div class="counter">
+    <?php include "text-counter/count.php"; ?>
+    </div>
+     <p class="times"> Times </p>
+
+
 </div>
+
 </div>
 <script src="js/jquery.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
