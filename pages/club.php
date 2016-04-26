@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<?php $thisPage="Rules"; ?>
+<?php $thisPage="Club"; ?>
 <html>
 <head>
    <link rel="stylesheet" styles.css type="text/css" href="../css/styles.css">
    <link rel="stylesheet" styles.css type="text/css" href="../css/normalize.css">
-   <script type="text/javascript" src="js/script.js"></script>
    <title> The Inside "Water": Attitude </title>
    <link rel="icon"  type="image/png" href="../assets/img/favicon.ico" />
 
@@ -13,7 +12,7 @@
    <meta name="keywords" content="WaterPolo,waterpolo,information,attitude">
    <meta name="author" content="Seth Berke">
 </head>
-<body id="rules">
+<body id="club">
 <?php
 include "../includes/header.inc.php";
 ?>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php $thisPage="Rules"; ?>
+<?php $thisPage="Plays"; ?>
 <html>
 <head>
    <link rel="stylesheet" styles.css type="text/css" href="../css/styles.css">
@@ -13,7 +13,7 @@
    <meta name="keywords" content="WaterPolo,waterpolo,information,attitude">
    <meta name="author" content="Seth Berke">
 </head>
-<body id="rules">
+<body id="national">
 <?php
 include "../includes/header.inc.php";
 ?>

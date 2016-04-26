@@ -107,6 +107,20 @@ body {
 .navbar{
    margin-top: 0;
 }
+body#started li#nav-started,
+body#attitude li#nav-attitude,
+body#about li#nav-about,
+body#club li#nav-club,
+body#highschool li#nav-highschool,
+body#national li#nav-national,
+body#plays li#nav-plays,
+body#positions li#nav-positions,
+body#prevention li#nav-prevention,
+body#rules li#nav-rules,
+body#training li#nav-training{
+   border-bottom: 1px solid white;
+   background-color: #ff5555;
+}
 .navbar ul{
 	list-style:none;
 	position:relative;
@@ -163,7 +177,7 @@ body {
 .wpball {
    height: 90px;
    margin-left: 280px;
-   margin-top: -80px;
+   margin-top: -82px;
    padding-bottom: 15px;
    transition: 1s ease;
 }

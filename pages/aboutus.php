@@ -11,7 +11,7 @@
    <meta name="keywords" content="WaterPolo,waterpolo,information,attitude">
    <meta name="author" content="Seth Berke">
 </head>
-<body>
+<body id="about">
 <?php
 include "../includes/header.inc.php";
 ?>

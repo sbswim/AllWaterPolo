@@ -12,9 +12,12 @@
    <meta name="keywords" content="WaterPolo,waterpolo,information,attitude">
    <meta name="author" content="Seth Berke">
 </head>
-<body>
+<body id ="started">
 <?php
 include "../includes/header.inc.php";
+?>
+<?php
+define ('ACTIVE_PAGE', "Started");
 ?>
 <?php
 include "../includes/navbar.inc.php";

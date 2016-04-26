@@ -14,7 +14,7 @@
 <body>
    <div class="wrapper">
    <div class="header">
-      <h1 class="title"><a href="index.php">The Inside "Water" </a></h1>
+      <h1 class="title" class="currentpage"><a href="index.php">The Inside "Water" </a></h1>
       <h2 class="subtitle"> Simply Dedicated to Water Polo</h2>
       <img class="wpball"src="assets/img/WPBall.png" />
    </div>
@@ -32,7 +32,7 @@
             <li> <a href="pages/plays.php">Plays </a></li>
             <li> <a href="pages/tournaments.php">Tournments </a>
                   <ul>
-                     <li> <a href="#"> Club </a> </li>
+                     <li> <a href="pages/club"> Club </a> </li>
                      <li> <a href="#"> HighSchool </a> </li>
                      <li> <a href="#"> National </a> </li>
                   </ul>
