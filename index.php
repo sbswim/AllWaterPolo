@@ -14,14 +14,14 @@
 <body>
    <div class="wrapper">
    <div class="header">
-      <h1 class="title" class="currentpage"><a href="index.php">The Inside "Water" </a></h1>
+      <h1 class="title"><a href="index.php" id="home" >The Inside "Water" </a></h1>
       <h2 class="subtitle"> Simply Dedicated to Water Polo</h2>
       <img class="wpball"src="assets/img/WPBall.png" />
    </div>
 
 <div class="navbar">
 <ul>
-   <li> <a href="pages/started.php">Get Started!</a></li>
+   <li> <a href="pages/started.php" id="started">Get Started!</a></li>
    <li> <a href="pages/attitude.php">Attitude</a></li>
    <li> <a href="pages/training.php">Training </a></li>
       <li> <a href="pages/prevention.php">Injury Prevention </a></li>
@@ -32,9 +32,9 @@
             <li> <a href="pages/plays.php">Plays </a></li>
             <li> <a href="pages/tournaments.php">Tournments </a>
                   <ul>
-                     <li> <a href="pages/club"> Club </a> </li>
-                     <li> <a href="#"> HighSchool </a> </li>
-                     <li> <a href="#"> National </a> </li>
+                     <li> <a href="pages/club.php"> Club </a> </li>
+                     <li> <a href="pages/highschool.php"> HighSchool </a> </li>
+                     <li> <a href="pages/national.php"> National </a> </li>
                   </ul>
             </li>
          </ul>
@@ -70,11 +70,11 @@
     </div>
 
 
-      <p class="counterhits"> This Page has been viewed </p>
+      <p class="counterhits"> TheInsideWater has helped </p>
       <div class="counter">
     <?php include "text-counter/count.php"; ?>
     </div>
-     <p class="times"> Times </p>
+     <p class="times"> people. </p>
 
 
 </div>

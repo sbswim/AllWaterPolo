@@ -51,6 +51,9 @@ body {
    font-size: 2em;
    color: black;
 }
+#home{
+   border-bottom: 2px solid white;
+}
 .title a {
    color: black;
    text-decoration: none;
@@ -95,37 +98,37 @@ body {
    text-align: center;
    z-index: 1;
    border: 0;
-   margin-top: 200px;
+   margin-top: 0px;
 }
 .navbar-fixed {
     top: 0;
     z-index: 100;
-   position: fixed;
-    width: 100%;
-    background-color: red;
-}
-.navbar{
-   margin-top: 0;
+    position: fixed;
 }
 body#started li#nav-started,
 body#attitude li#nav-attitude,
 body#about li#nav-about,
-body#club li#nav-club,
-body#highschool li#nav-highschool,
-body#national li#nav-national,
-body#plays li#nav-plays,
-body#positions li#nav-positions,
 body#prevention li#nav-prevention,
-body#rules li#nav-rules,
-body#training li#nav-training{
+body#training li#nav-training,
+body.information li#nav-information{
    border-bottom: 1px solid white;
    background-color: #ff5555;
+}
+body#rules li#nav-rules,
+body#national li#nav-national,
+body#club li#nav-club,
+body#highschool li#nav-highschool,
+body#plays li#nav-plays,
+body#positions li#nav-positions{
+   border: 1px solid white;
+   background-color: #ff5555;
+   z-index: 100;
 }
 .navbar ul{
 	list-style:none;
 	position:relative;
 	float:left;
-	padding:0;
+	padding-left:-50px;
    margin-top: -10px;
 }
 .navbar ul a{
@@ -153,7 +156,7 @@ body#training li#nav-training{
 .navbar ul ul{
 	display:none;
 	position:absolute;
-	top:100%;
+   margin-top: 0px;
 	left:0;
 	background:red;
 }
