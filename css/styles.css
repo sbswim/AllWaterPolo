@@ -153,6 +153,7 @@ body#positions li#nav-positions{
 }
 .navbar ul li:hover{
 	background:#ff5555;
+   border-radius: 5px;
 }
 .navbar ul ul{
 	display:none;
@@ -254,4 +255,25 @@ body#positions li#nav-positions{
 .times{
    margin-left: 265px;
    margin-top: -18px;
+}
+/* DONATION PAGE */
+
+.donate{
+   width: 100px;
+   height: 100px;
+   background-color: yellow;
+   box-shadow: 5px 5px 5px red;
+margin: auto;
+border-top-left-radius: 10px;
+border-bottom-right-radius: 10px;
+
+}
+.donation{
+   color: blue;
+   text-decoration: none;
+   text-align: center;
+   padding-top: 35px;
+   font-weight: 200;
+  font-family: sans-serif;
+
 }

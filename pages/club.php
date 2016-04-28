@@ -4,7 +4,7 @@
 <head>
    <link rel="stylesheet" styles.css type="text/css" href="../css/styles.css">
    <link rel="stylesheet" styles.css type="text/css" href="../css/normalize.css">
-   <title> The Inside "Water": Attitude </title>
+   <title> The Inside "Water" | Club Tournaments </title>
    <link rel="icon"  type="image/png" href="../assets/img/favicon.ico" />
 
    <meta charset="utf-8">

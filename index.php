@@ -3,7 +3,7 @@
 <head>
    <link rel="stylesheet" type="text/css" href="css/styles.css">
    <link rel="stylesheet"  type="text/css" href="css/normalize.css">
-   <title> The Inside "Water" </title>
+   <title> The Inside "Water" | Home Page </title>
    <link rel="icon"  type="image/png" href="assets/img/favicon.ico" />
 
    <meta charset="utf-8">
@@ -47,13 +47,13 @@
 <h1 class="thegoal"> Our "Goal" </h1>
 
 <h1 class="reason"> To Promote A Heathy Training Environment: </h1>
-<p> TBA </p>
+<p>  </p>
 <h1 class="reason"> To Promote A Positive Attitude And Life Style: </h1>
-<p> TBA </p>
+<p>  </p>
 <h1 class="reason"> To Explain the Inner Game of the Sport</h1>
-<p> TBA </p>
+<p>  </p>
 <h1 class="reason"> To Help Cope With Injuries and How to Prevent Them From Ocurring: </h1>
-<p> TBA </p>
+<p>  </p>
 
 </div>
 

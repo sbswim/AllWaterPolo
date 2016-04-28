@@ -4,7 +4,7 @@
    <link rel="stylesheet" styles.css type="text/css" href="../css/styles.css">
    <link rel="stylesheet" styles.css type="text/css" href="../css/normalize.css">
    <script type="text/javascript" src="js/script.js"></script>
-   <title> The Inside "Water": Attitude </title>
+   <title> The Inside "Water" | Attitude </title>
    <link rel="icon"  type="image/png" href="../assets/img/favicon.ico" />
 
    <meta charset="utf-8">
