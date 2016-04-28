@@ -58,7 +58,7 @@ The Inside "Water" Of the sport.
 </ul>
 
 
-<h3> About Us <h3>
+<h3> About Us </h3>
 <ul>
 <li> Will provide links to YouTube, Instagram, emails to address us at </li>
 <li> Will explain who we are and what we want to de </li>
