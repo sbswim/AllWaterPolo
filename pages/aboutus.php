@@ -28,13 +28,16 @@ include "../includes/navbar.inc.php";
 <p class="reason"> What else am I doing to help the community? </p>
 <p> I am in the process of developing an organization at local pools in order for the special needs population to have the experience of water polo through interaction through the sport </p>
 <p class="reason"> Contact Us! </p>
-<h3> YouTube: SwimChamp1Gold ----> </h3>
+<h3 class="social"> YouTube: SwimChamp1Gold </h3>
+<h3 class="social"> Twitter: ByThePool </h3>
+<h3 class="social"> FaceBook: TheInsideWater </h3>
+<h3 class="social"> Instagram: TheInsideWater  </h3>
 <p class="reason"> You can donate to support this website and the Water Polo Community </p>
+<a href="#">
 <div class="donate">
-   <a href="#">
 <p class="donation"> Thanks so much!!! </p>
-</a>
 </div>
+</a>
 </div>
 <?php
 include "../includes/footer.inc.php";

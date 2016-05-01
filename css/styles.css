@@ -1,5 +1,5 @@
 /* General */
-a {
+a{
    text-decoration: none;
 }
 body {
@@ -92,13 +92,11 @@ body {
    padding-top: 10px;
    padding-bottom:10px;
    border-radius: 5px;
-   font-size: 1.0em;
    max-width: 800px;
    width: 100%;
    max-height: 50px;
    text-align: center;
    z-index: 1;
-   border: 0;
    margin-top: 0px;
 }
 .navbar-fixed {
@@ -123,12 +121,11 @@ body#plays li#nav-plays,
 body#positions li#nav-positions{
    border: 1px solid white;
    background-color: #ff5555;
-   z-index: 100;
+   z-index: 2;
 }
 .navbar ul{
 	list-style:none;
 	position:relative;
-	float:left;
 	padding-left:-50px;
    margin-top: -10px;
 }
@@ -147,7 +144,7 @@ body#positions li#nav-positions{
 }
 .navbar ul li{
 	position:relative;
-	float:left;
+   float:left;
 	margin:0;
 	padding:0;
 }
@@ -184,7 +181,7 @@ body#positions li#nav-positions{
    margin-left: 280px;
    margin-top: -82px;
    padding-bottom: 15px;
-   transition: 1s ease;
+   transition: 1s ease-in;
 }
 .wpball:hover{
    margin-left: 710px;
@@ -195,7 +192,7 @@ body#positions li#nav-positions{
     margin-top:20px;
     display: block;
     position: absolute;
-    transition: 0.5s ease;
+    transition: 0.5s ease-in;
 }
 .instagram {
     margin-top: 18px;
@@ -203,7 +200,7 @@ body#positions li#nav-positions{
     height:35px;
     display: block;
     position: absolute;
-    transition: 0.5s ease;
+    transition: 0.5s ease-in;
 }
 .twitter {
     margin-top: 20px;
@@ -211,7 +208,7 @@ body#positions li#nav-positions{
     height: 30px;
     display: block;
     position: absolute;
-    transition: 0.5s ease;
+    transition: 0.5s ease-in;
 }
 .youtube {
    margin-top: 20px;
@@ -219,7 +216,7 @@ body#positions li#nav-positions{
     height:30px;
     display: block;
     position: absolute;
-    transition: 0.5s ease;
+    transition: 0.5s ease-in;
 
 }
 /* Footer */
@@ -258,14 +255,27 @@ body#positions li#nav-positions{
 }
 /* DONATION PAGE */
 
+.social{
+   font-family: inherit;
+   font-weight: lighter;
+   color: #CCC;
+   font-size: 1.1em;
+}
+.social::after{
+   content: "\2192";
+   color: yellow;
+font-size: 1.5em;
+}
 .donate{
    width: 100px;
    height: 100px;
    background-color: yellow;
    box-shadow: 5px 5px 5px red;
-margin: auto;
-border-top-left-radius: 10px;
-border-bottom-right-radius: 10px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
 
 }
 .donation{
@@ -273,7 +283,6 @@ border-bottom-right-radius: 10px;
    text-decoration: none;
    text-align: center;
    padding-top: 35px;
-   font-weight: 200;
+   font-weight: 800;
   font-family: sans-serif;
-
 }
